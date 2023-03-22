@@ -3,6 +3,7 @@
 - [Kedro Spaceflights](#kedro-spaceflights)
   - [Overview](#overview)
   - [Rules and guidelines](#rules-and-guidelines)
+  - [Set up the spaceflights tutorial project](#set-up-the-spaceflights-tutorial-project)
   - [How to install dependencies](#how-to-install-dependencies)
   - [How to run your Kedro pipeline](#how-to-run-your-kedro-pipeline)
   - [How to test your Kedro project](#how-to-test-your-kedro-project)
@@ -139,6 +140,20 @@ In order to get the best out of the template:
 * Make sure your results can be reproduced by following a [data engineering convention](https://kedro.readthedocs.io/en/stable/faq/faq.html#what-is-data-engineering-convention)
 * Don't commit data to your repository
 * Don't commit any credentials or your local configuration to your repository. Keep all your credentials and local configuration in `conf/local/`
+
+## Set up the spaceflights tutorial project
+
+The setup steps are as follows:
+
+1. Create a new project with `kedro new`
+
+2. Install project dependencies with `pip install -r src/requirements.txt`
+
+3. Configure the following in the `conf` folder:
+
+* Credentials and any other sensitive information
+
+* Logging
 
 ## How to install dependencies
 
